@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "407be365109753f8e2b41281c3ac6769",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -365,6 +365,58 @@
                 "trusted proxy"
             ],
             "time": "2018-02-07T20:20:57+00:00"
+        },
+        {
+            "name": "gunharth/laravel-lightspeed-api",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gunharth/laravel-lightspeed-api.git",
+                "reference": "89c52b2b245cf3977be6ce7f73529c4d953aa4db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gunharth/laravel-lightspeed-api/zipball/89c52b2b245cf3977be6ce7f73529c4d953aa4db",
+                "reference": "89c52b2b245cf3977be6ce7f73529c4d953aa4db",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.2.8",
+                "php": "^7.0",
+                "seoshop/seoshop-php": "^1.8"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^5.3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gunharth\\Lightspeed\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gunharth Randolf",
+                    "email": "hello@gunharth.io",
+                    "homepage": "https://gunharth.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel wrapper for the Lightspeed Seoshop API",
+            "homepage": "https://github.com/gunharth/laravel-lightspeed-api",
+            "keywords": [
+                "api",
+                "laravel",
+                "laravel-lightspeed-api",
+                "lightspeed",
+                "seoshop"
+            ],
+            "time": "2017-05-11T15:36:43+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1269,6 +1321,53 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "seoshop/seoshop-php",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SEOshop/API-PHP-Client.git",
+                "reference": "a6a71aa4a38c9004eea3046b005f3e41de5f0460"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SEOshop/API-PHP-Client/zipball/a6a71aa4a38c9004eea3046b005f3e41de5f0460",
+                "reference": "a6a71aa4a38c9004eea3046b005f3e41de5f0460",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/WebshopappApiClient.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lightspeed and contributors",
+                    "homepage": "https://github.com/SEOshop/API-PHP-Client/contributors"
+                }
+            ],
+            "description": "PHP client for the Lightspeed eCom API",
+            "homepage": "http://developers.lightspeedhq.com/ecom",
+            "keywords": [
+                "api",
+                "client",
+                "ecom",
+                "lightspeed",
+                "php"
+            ],
+            "time": "2016-12-06T11:17:30+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
