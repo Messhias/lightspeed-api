@@ -15,13 +15,16 @@ class ConnectionController extends Controller
     /**
     *   Conection controller using seoshopphp api
     *
-    *   @return JSON
+    *   @return void
     */
     public function __construct($api = 'test')
     {
         $this->api = $api;
     }
 
+    /**
+    *   @return mixed $api
+    */
     public function get()
     {
         return $this->api;
